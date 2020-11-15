@@ -10,7 +10,7 @@ def get_version():
     return 'App version (using generic webhook): <b>2.0</b>'
 
 @app.route('/test')
-def get_version():
+def get_test():
     return 'You are accessing /test endpoint'
 
 if __name__ == "__main__":
